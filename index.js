@@ -22,9 +22,9 @@ export default class ReactNativeARKit extends Component {
         // enable light estimation (defaults to true)
         lightEstimationEnabled="lightEstimationEnabled"
         // get the current lightEstimation (if enabled)
-        
+
         // it fires rapidly, so better poll it from outside with
-        
+
         // ARKit.getCurrentLightEstimation()
         onLightEstimation={e => console.log( e.nativeEvent )}
         // event listener for (horizontal) plane detection
@@ -118,7 +118,7 @@ export default class ReactNativeARKit extends Component {
             width: 0.1,
             height: 0.1
           }}/>
-        <ARKit.Text text="ARKit is Cool!" position={{
+        <ARKit.Text text="Welcome to ARPoints!" position={{
             x: 0.2,
             y: 0.6,
             z: 0
